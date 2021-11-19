@@ -1,0 +1,38 @@
+.icon {
+  margin: 5px;
+  padding: 5px;
+  background-color: rgba(54, 170, 209, 0.715);
+  /* border-radius: 5px; */
+  color: rgb(155, 155, 155);
+  font-size: 30px;
+}
+.icon:hover {
+  background-color: rgba(25, 250, 235, 0.722);
+}
+.footer-menu {
+  list-style: none;
+  margin-top: 20px;
+  font-size: 16px;
+  cursor: pointer;
+}
+.footer-menu:hover {
+  color: rgb(12, 166, 243);
+}
+.footer-input {
+  padding: 8px;
+  border: none;
+  outline: none;
+  background-color: gray;
+}
+.footer-container {
+  background-color: rgba(137, 191, 209, 0.715);
+  padding: 50px;
+  color: rgb(2, 2, 2);
+}
+.foter-phone-icon {
+  font-size: 30px;
+  color: rgb(0, 0, 0);
+}
+.menu-linker {
+  color: rgb(0, 0, 0);
+}

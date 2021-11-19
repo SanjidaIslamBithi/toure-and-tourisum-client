@@ -1,70 +1,59 @@
-# Getting Started with Create React App
+# TOUR-BD
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Is a Tourism and travel planning aplication [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+## Details:
 
-In the project directory, you can run:
+- There is a saying "Travel is the only thing you buy that makes you richer"
 
-### `npm start`
+- It's a responsive Travel booking site. Where travelers can book their amazing travel trour trips all over Bangladesh at minimum costs.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+- By reading Comment box's reviews anyone can know about others experiences.
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+- Can easily add/cancel a booking.
 
-### `npm test`
+- There is a Explore Section Where Travelers can Find All kind of Travel-trips.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Features:
 
-### `npm run build`
+#### Client Site Features:
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- Built a responsive full stack web application for a Planning Tourism and Travel service provider with a dynamic service section and client review section<br/>
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+- A client can sign in with Google or email/password and register themself/
+- A client can order for a service which will save in a database
+- A client can give review about the services which will be visible in the comments/review section<br/>
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+- An admin can add, delete a new services which will be visible in the services section so that a client can ask for that service
 
-### `npm run eject`
+#### Admin Site Fetures:
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+- Admin can Add A New Serviice, Delete A service.
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+- Can able to see All orders with name, email, phone of Clients.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+- A newAdmin can be added.
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+- All admin's works are loaded and handeled from database.
 
-## Learn More
+## Dependencies Used:
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+#### Client Site:
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+- React.js
+- React Router Dom(private and nested route)
+- React fontawesome
+- React-hook-form
+- React-Bootstrap
+- Firebase Auth
+- React-raiting
+- React-axios
 
-### Code Splitting
+#### Server Site:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+- Express
+- MongoDB
+- Cors
+- Nodemon
+- dotenv
+- Heroku
