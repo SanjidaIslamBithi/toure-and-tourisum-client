@@ -1,6 +1,7 @@
-# TOUR-BD
+# TRAVEL-WITH-BD
 
-Is a Tourism and travel planning aplication [Create React App](https://github.com/facebook/create-react-app).
+Is a Tourism and travel planning aplication [TRAVEL-WITH-BD-CLIENT-LINK](https://last-assignment-1e1f2.web.app/)
+[TRAVEL-WITH-BD-SERVER-LINK](https://shrouded-dusk-24766.herokuapp.com/)
 
 ## Details:
 
@@ -20,7 +21,10 @@ Is a Tourism and travel planning aplication [Create React App](https://github.co
 
 - Built a responsive full stack web application for a Planning Tourism and Travel service provider with a dynamic service section and client review section<br/>
 
-- A client can sign in with Google or email/password and register themself/
+- A client can sign in with Google or email/password and register themself.
+
+- Loading spiner in time of data loading in top services.
+
 - A client can order for a service which will save in a database
 - A client can give review about the services which will be visible in the comments/review section<br/>
 
