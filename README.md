@@ -1,9 +1,12 @@
 # TRAVEL-WITH-BD
 
-Is a Tourism and travel planning aplication [TRAVEL-WITH-BD-CLIENT-LINK](https://last-assignment-1e1f2.web.app/)
-[TRAVEL-WITH-BD-SERVER-LINK](https://shrouded-dusk-24766.herokuapp.com/)
+Is a Tourism and travel planning aplication
 
-## Details:
+- [TRAVEL-WITH-BD-CLIENT-LINK](https://last-assignment-1e1f2.web.app/)
+
+- [TRAVEL-WITH-BD-SERVER-LINK](https://shrouded-dusk-24766.herokuapp.com/)
+
+## Client-site Details:
 
 - There is a saying "Travel is the only thing you buy that makes you richer"
 
@@ -14,6 +17,18 @@ Is a Tourism and travel planning aplication [TRAVEL-WITH-BD-CLIENT-LINK](https:/
 - Can easily add/cancel a booking.
 
 - There is a Explore Section Where Travelers can Find All kind of Travel-trips.
+
+## Server-site Details:
+
+- Server site is deployed in Heroku.
+
+- All codes are well organised.
+
+- AddService/DeleteService for top service, explore all service page is there.
+
+- Comment Section's data are added,delete,updated.
+
+- All Data are loaded from mongoDb.
 
 ## Features:
 

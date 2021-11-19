@@ -1,5 +1,5 @@
-import React, { useEffect, useState } from 'react';
-import { Button, Card, Col, Container, Row } from 'react-bootstrap';
+import React from 'react';
+import { Row } from 'react-bootstrap';
 import useAuth from '../../../hooks/useAuth';
 import Product from '../Product/Product';
 import loading from '../../../images/spin.gif';

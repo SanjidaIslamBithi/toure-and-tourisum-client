@@ -1,7 +1,7 @@
 import React from 'react';
 import { Nav } from 'react-bootstrap';
 
-import { Switch, Route, Link, useRouteMatch } from 'react-router-dom';
+import {Link, useRouteMatch } from 'react-router-dom';
 import useAuth from '../../../hooks/useAuth';
 
 const Dashboard = () => {

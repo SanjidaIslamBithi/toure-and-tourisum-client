@@ -9,7 +9,7 @@ import { faCheckCircle } from '@fortawesome/free-solid-svg-icons';
 const ClientBookedList = () => {
   const { user } = useAuth();
   const [lists, setLists] = useState([]);
-  // const [success, setSuccess] = useState(false);
+  const [success, setSuccess] = useState(false);
   useEffect(() => {
     const url = ` https://shrouded-dusk-24766.herokuapp.com/allbuyingservices?email=${user.email}`;
 
@@ -28,7 +28,7 @@ const ClientBookedList = () => {
         // console.log(data);
         if (data.deletedCount) {
           alert('From bought product one item is deleted');
-          // setSuccess(true);
+          setSuccess(true);
           const remaining = lists.filter((product) => product._id !== id);
           setLists(remaining);
           console.log(remaining);
@@ -107,12 +107,12 @@ const ClientBookedList = () => {
               ))}
             </div>
           </div>
-          {/* {success && (
+          {success && (
             <Alert variant='danger'>
               <FontAwesomeIcon icon={faCheckCircle} />
               Deleted a product successfully{' '}
             </Alert>
-          )} */}
+          )}
         </div>
       </div>
     </section>

@@ -13,10 +13,6 @@ import { Link } from 'react-router-dom';
 import useAuth from '../../../hooks/useAuth';
 import logo from '../../../images/logo.png';
 import './Navigation.css';
-// import AddallProducts from '../../AdminPages/AddallProducts/AddallProducts';
-// import MakeAdmin from '../../AdminPages/MakeAdmin/MakeAdmin';
-// import AdminRoute from '../../Login/AdminRoute/AdminRoute';
-// import AddProducts from '../../AdminPages/AddProducts/AddProducts';
 
 const Navigation = () => {
   const { user, logout } = useAuth();
